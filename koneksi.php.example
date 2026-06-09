@@ -1,0 +1,9 @@
+<?php
+// koneksi.php.example - Ubah nama file ini menjadi koneksi.php dan sesuaikan isinya
+$host = "localhost";
+$user = "INPUT_USERNAME_DISINI";     
+$pass = "INPUT_PASSWORD_DISINI";         
+$db   = "INPUT_NAMA_DATABASE_DISINI"; 
+
+$koneksi = mysqli_connect($host, $user, $pass, $db);
+?>
